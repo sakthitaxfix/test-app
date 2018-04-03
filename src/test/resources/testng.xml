@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
     <parameter name="platform" value="ios" />
     <classes>
-      <class name="mtest.WorkSure"/>
+      <class name="mtest.TestCircleCI"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
