@@ -12,7 +12,7 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 
-public class WorkSure {
+public class TestCircleCI {
 	
 
 	@Test
@@ -24,7 +24,7 @@ public class WorkSure {
 		    capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11.2");
 		    capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 6");
 		    capabilities.setCapability(MobileCapabilityType.APP, "/Users/sakthiganesharumugasami/Documents/appbuild/Taxfix.app");
-		    WebDriver driver = new IOSDriver<MobileElement>(new URL("http://54219ba7.ngrok.io/wd/hub"), capabilities);
+		    WebDriver driver = new IOSDriver<MobileElement>(new URL("http://ab51f647.ngrok.io/wd/hub"), capabilities);
 		    MobileElement element = (MobileElement) driver.findElement(By.xpath("(//XCUIElementTypeOther[@name=\"Start your tax return\"])[2]"));
 		    element.click();
 			driver.findElement(By.xpath("//XCUIElementTypeOther[@name=\"Not now\"]")).click();
