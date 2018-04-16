@@ -1,4 +1,4 @@
-package mtest;
+package de.taxfix;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -11,10 +11,8 @@ import org.testng.annotations.Test;
 
 import io.appium.java_client.remote.MobileCapabilityType;
 
-
-public class TestCircleCI {
+public class SampleTest {
 	
-
 	@Test
 	public  void  pureThoughts() throws MalformedURLException {
 		
